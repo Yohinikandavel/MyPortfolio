@@ -1,39 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yohini K | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yohini K - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-    <header>
-        <h1>Yohini K</h1>
-        <p>Computer Science Engineer | Web Developer | Innovator</p>
-    </header>
-
-    <section class="about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Yohini, a passionate developer focused on Java, Full Stack Development, and creative problem-solving. I love building things that make life better for others!</p>
-    </section>
-
-    <section class="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Flight Route Optimizer (Quantum)</strong> – A quantum-based system to optimize air traffic routes</li>
-            <li><strong>Tourism Boost Platform</strong> – An app to revive local tourism with smart tools</li>
-            <li><strong>Truth or Dare Game</strong> – A fun family game using logic and turn orders</li>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">YOHINI K</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section" data-aos="fade-up">
+      <div class="container about-container">
+        <h2>About Me</h2>
+        <p>
+          Enthusiastic and motivated individual seeking a challenging corporate role to leverage my talents and skills, contributing to the organization's success. Eager to apply my strong work ethic, creativity, and problem-solving abilities in a dynamic environment.
+        </p>
+        <p><strong>Role:</strong> Computer Science Engineer</p>
+        <p><strong>Location:</strong> Cuddalore, Tamilnadu, India</p>
+      </div>
     </section>
 
-    <section class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:yohinikandavel11@gmail.com">yohinikandavel11@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/Yohinikandavel" target="_blank">Yohinikandavel</a></p>
+    <section id="skills" class="section" data-aos="fade-up">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Adaptable</li>
+              <li>Problem Solving</li>
+              <li>Leadership</li>
+              <li>Collaborative</li>
+              <li>Responsible</li>
+              <li>Innovative</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Java</li>
+              <li>C#</li>
+              <li>HTML, CSS</li>
+              <li>SQL</li>
+              <li>SpringBoot</li>
+              <li>AngularJS</li>
+              <li>C, Python</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <ul>
+              <li>Eclipse</li>
+              <li>VS Code</li>
+              <li>MySQL Workbench</li>
+              <li>IBM Quantum Experience</li>
+              <li>Google Colab</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li>English</li>
+              <li>Tamil</li>
+              <li>Hindi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <p>© 2025 Yohini K</p>
-    </footer>
+    <section id="projects" class="section" data-aos="fade-up">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card" data-aos="zoom-in">
+            <h3>Alcohol Detection with Engine Locking System - IoT</h3>
+            <p>IOT-Based Alarm system with Engine locking Technology.<br/><strong>Role:</strong> Technician, assembled components and soldered.</p>
+          </article>
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <h3>Automated Bird Species Identification using Audio signals - AI</h3>
+            <p>Identifying specific bird by uploading audio signal using CNN.<br/><strong>Role:</strong> Coordinator, worked on front-end development.</p>
+          </article>
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Shopping Mall - Full Stack Development</h3>
+            <p>Developed web page connected to database using Java 8, AngularJS, Spring Boot & MySQL.<br/><strong>Role:</strong> Team Leader, worked on customer service.</p>
+          </article>
+          <article class="project-card" data-aos="zoom-in" data-aos-delay="300">
+            <h3>Optimizing Flight Routes using Grover's & QAOA Algorithm - Quantum Computing</h3>
+            <p>Optimized routes for fuel efficiency and de-conflicts.<br/><strong>Role:</strong> Team Leader, worked on implementation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" data-aos="fade-up">
+      <div class="container contact-container">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li>📞 +91 9944906787</li>
+          <li>📍 Cuddalore, Tamilnadu, India</li>
+          <li>✉️ <a href="mailto:yohinikandavel11@gmail.com">yohinikandavel11@gmail.com</a></li>
+          <li>🔗 <a href="https://linkedin.com/in/yohini-k-cse-mvit" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li>💻 <a href="https://github.com/Yohinikandavel" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <a href="resume/YOHINI_RESUME.pdf" class="resume-btn" download>
+    Download Resume
+  </a>
+
+  <footer>
+    <p>© 2025 Yohini K | Computer Science Engineer</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
 </body>
 </html>
